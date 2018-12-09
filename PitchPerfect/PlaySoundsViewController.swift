@@ -62,7 +62,9 @@ class PlaySoundsViewController: UIViewController {
     @IBAction func stopButtonPressed(_ sender: AnyObject) {
         stopAudio()
     }
-
+    
+    // Stop Audio when user return back to the previous page while Audio still working.
+    
     override func viewWillDisappear(_ animated: Bool) {
         stopAudio()
     }
