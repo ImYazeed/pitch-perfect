@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BB17B4A221BADA3900499C6D /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17B4A121BADA3900499C6D /* PlaySoundsViewController.swift */; };
 		BB17B4A421BADBCB00499C6D /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB17B4A321BADBCA00499C6D /* PlaySoundsViewController+Audio.swift */; };
+		F52091A821BD5CFF007EEA4E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52091A721BD5CFF007EEA4E /* AVFoundation.framework */; };
 		F5949FBC21B033F4001813D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5949FBB21B033F4001813D7 /* AppDelegate.swift */; };
 		F5949FBE21B033F4001813D7 /* recordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5949FBD21B033F4001813D7 /* recordingViewController.swift */; };
 		F5949FC121B033F4001813D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5949FBF21B033F4001813D7 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		BB17B4A121BADA3900499C6D /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		BB17B4A321BADBCA00499C6D /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
+		F52091A721BD5CFF007EEA4E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F5949FB821B033F4001813D7 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5949FBB21B033F4001813D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5949FBD21B033F4001813D7 /* recordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordingViewController.swift; sourceTree = "<group>"; };
@@ -35,17 +37,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52091A821BD5CFF007EEA4E /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F52091A621BD5CFF007EEA4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F52091A721BD5CFF007EEA4E /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F5949FAF21B033F4001813D7 = {
 			isa = PBXGroup;
 			children = (
 				F5949FBA21B033F4001813D7 /* PitchPerfect */,
 				F5949FB921B033F4001813D7 /* Products */,
+				F52091A621BD5CFF007EEA4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -301,7 +313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Test.PitchPerfect1;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.PitchPerfect38;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +331,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Test.PitchPerfect1;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.PitchPerfect38;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

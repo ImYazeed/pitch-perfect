@@ -85,12 +85,14 @@ class recordingViewController: UIViewController, AVAudioRecorderDelegate {
         if isRecording {
             stopRecordingButton.isEnabled = true
             recordButton.isEnabled = false
-            recordingLabel.text = "Recording in progress"
+            recordingLabel.text = "Recording in progress..."
         }else {
             recordingLabel.text = "Tap to Record"
             recordButton.isEnabled = true
             stopRecordingButton.isEnabled = false
         }
     }
+    
+    
 }
 
