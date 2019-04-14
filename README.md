@@ -1,3 +1,3 @@
 # pitch-perfect
-pitch perfect
-s
+
+iOS Developer Nano Degree Project
